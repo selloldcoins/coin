@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  margin: 0 0.75rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #333;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.mobile p span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#navbar {
+  /* position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1; */
+  background: white;
+  padding: 0.5rem 0;
+}
+
+#navbar .logo img {
+  width: 10%;
+}
+
+#navbar .logo {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#navbar ul li {
+  margin: 0rem 1rem;
+}
+
+#navbar ul li a {
+  color: #9d7e63;
+  padding: 0.5rem 1rem;
+  font-size: 110%;
+}
+
+#navbar ul li a:hover {
+  text-decoration: none;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#navbar ul li a.active {
+  background: #d2644d;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Carousel */
+
+.carousel {
+  margin: 1rem 0;
+}
+
+.carousel img {
+  height: 300px;
+}
+
+/* Product Images */
+
+#product {
+  margin: 2rem 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#product .product-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+#product .product-content .product-item {
+  border: solid 1px rgb(224, 224, 224);
+  border-radius: 5px;
+  padding-bottom: 0.5rem;
+}
+
+#product .product-content .product-item .product-img {
+  margin-bottom: 0.5rem;
+}
+
+#product .product-content .product-item .product-img img {
+  width: 100%;
+}
+
+#product .product-content .product-item .product-text {
+  padding: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  background: #333;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* About Page */
+
+#about {
+  margin: 2rem;
+  margin-top: 2rem;
+}
+
+#about h2 {
+  margin: 2rem 0;
+  text-align: center;
+  background: #d2644d;
+  color: white;
+  padding: 1rem;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#about h3 {
+  margin-bottom: 2rem;
+}
+
+#about p {
+  line-height: 1.6;
+}
+
+/* Contact page */
+
+#contact {
+  margin-top: 4rem;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact .contact-details {
+  text-align: center;
+  background: grey;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  color: white;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form .form-group input {
+  width: 100%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  border-style: none;
+  border: solid 1px rgb(221, 221, 221);
+  font-size: 80%;
+}
+
+form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  border-style: none;
+  border: solid 1px rgb(221, 221, 221);
+  font-size: 80%;
+}
+
+.btn {
+  background: #d2644d;
+  color: white;
+}
+
+/* Success Page */
+
+#success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
